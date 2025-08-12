@@ -1,6 +1,7 @@
 import React from 'react';
 import StatusLabel, { Status } from './components/active-label/status-label';
 import {headers} from 'next/headers';
+import Button from './components/active-label/button';
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <StatusLabel status={Status.NotActive}>Not active</StatusLabel>
         <StatusLabel status={Status.Pending}>Pending</StatusLabel>
           <StatusLabel status={Status.Suspended}>Supended</StatusLabel>
+      
    
    </main>
 
